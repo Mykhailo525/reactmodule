@@ -1,10 +1,14 @@
 
 import './App.css';
+import TheSimpsons from "./components/TheSimpsons/TheSimpsons";
+
 
 function App() {
   return (
     <div>
-tyjtyjrtyjtyj
+      {/*{<Simpsons/>}*/}
+
+      {<TheSimpsons/>}
     </div>
   );
 }
