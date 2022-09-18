@@ -5,6 +5,8 @@ import Simpsons from "./components/Simpsons/Simpsons";
 
 import TheSimpsons from "./components/TheSimpsons/TheSimpsons";
 
+import CartoonCharacters from "./components/RickAndMorty/CartoonCharacters";
+
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
 
       {/*{<Simpsons/>}*/}
 
-      {<TheSimpsons/>}
+      {/*{<TheSimpsons/>}*/}
+
+      {<CartoonCharacters/>}
 
     </div>
   );
